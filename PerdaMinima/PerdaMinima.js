@@ -1,6 +1,6 @@
 function solucao(precos) {
 
-    let menorPreju = 99999999;
+    let menorPreju = 9999999;
 
     for (let i = 0; i < precos.length; i++) {
         for (let j = i + 1; j < precos.length; j++) {
